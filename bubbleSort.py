@@ -7,5 +7,10 @@ def sort(set_data):
 set_data = [100, 49, 55, 90, 47, 29, 97, 39, 42, 44]
 set_size = len(set_data)
 
+print('\n----- Bubble Sort Demonstration -----\n')
+print('Before applying bubble sort:')
+print(set_data)
+
 sort(set_data)
+print('\nAfter applying bubble sort:')
 print(set_data)
