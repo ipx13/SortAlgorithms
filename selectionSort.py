@@ -5,7 +5,7 @@ def sort(set, set_size):
             if set[y] < set[min]:
                 min = y
 
-        (set[x], set[min]) = (set[min], set[x])
+        set[x], set[min] = set[min], set[x]
 
 set_data = [100, 49, 55, 90, 47, 29, 97, 39, 42, 44]
 set_size = len(set_data)
